@@ -1,0 +1,18 @@
+<linker>
+    <assembly fullname="DialogueSystem">
+        <namespace fullname="PixelCrushers.DialogueSystem" preserve="all"/>
+        <namespace fullname="PixelCrushers.DialogueSystem.*" preserve="all"/>
+    </assembly>
+    
+    <assembly fullname="KopiLua">
+        <namespace fullname="KopiLua" preserve="all"/>
+    </assembly>
+    
+    <assembly fullname="KopiLuaDll">
+        <namespace fullname="KopiLuaDll" preserve="all"/>
+    </assembly>
+    
+    <assembly fullname="KopiLuaInterface">
+        <namespace fullname="LuaInterface" preserve="all"/>
+    </assembly>
+</linker>

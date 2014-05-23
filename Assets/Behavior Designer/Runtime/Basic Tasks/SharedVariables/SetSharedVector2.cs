@@ -1,0 +1,33 @@
+using UnityEngine;
+using BehaviorDesigner.Runtime;
+using BehaviorDesigner.Runtime.Tasks;
+
+namespace BehaviorDesigner.Runtime.Tasks.Basic.SharedVariables
+{
+    [TaskCategory("Basic/SharedVariable")]
+    [TaskDescription("Sets the SharedVector2 variable to the specified object. Returns Success.")]
+    public class SetSharedVector2 : Action
+    {
+        [Tooltip("The value to set the SharedVector2 to")]
+        public SharedVector2 targetValue;
+        [Tooltip("The SharedVector2 to set")]
+        public SharedVector2 targetVariable;
+
+        public override TaskStatus OnUpdate()
+        {
+            targetVariable.Value = targetValue.Value;
+
+            return TaskStatus.Success;
+        }
+
+        public override void OnReset()
+        {
+            if (targetValue != null) {
+                targetValue.Value = Vector2.zero;
+            }
+            if (targetVariable != null) {
+                targetVariable.Value = Vector2.zero;
+            }
+        }
+    }
+}
