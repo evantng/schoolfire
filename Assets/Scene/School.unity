@@ -3419,7 +3419,7 @@ Transform:
   m_PrefabInternal: {fileID: 1257747139}
   m_GameObject: {fileID: 278012280}
   m_LocalRotation: {x: 0, y: .365806401, z: 0, w: .930691004}
-  m_LocalPosition: {x: 7.70728493, y: 2.29053211, z: 54.9227104}
+  m_LocalPosition: {x: 7.70728493, y: .837317467, z: 56.6191711}
   m_LocalScale: {x: .800000012, y: .800000012, z: .800000012}
   m_Children:
   - {fileID: 255051867}
@@ -3522,8 +3522,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 237
-        y: 137
+        x: 235
+        y: 139
         width: 127
         height: 48
       isBreakpoint: 0
@@ -3547,14 +3547,12 @@ MonoBehaviour:
         linkConstraint: 0
         colorIndex: 0
       actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.BoolTest
-        customNames:
-        - 
-        actionEnabled: 00
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 3334d172
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3567,19 +3565,15 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000168617357616c6b696554616c6b6965646f4e6f7468696e6767657457616c6b696554616c6b696500
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000170000001700000001000000
-        paramName:
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 00000000110000001a00000029000000
-        paramByteDataSize: 11000000090000000f00000001000000
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     - name: Get Walkie Talkie
       description: 
       colorIndex: 0
@@ -6383,88 +6377,6 @@ MonoBehaviour:
         - failureStateEvent
         paramDataPos: 000000000100000000000000000000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 392
-        y: 104
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: State 2
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 393
-        y: 127
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -7599,6 +7511,7 @@ GameObject:
   - 114: {fileID: 657299474}
   - 143: {fileID: 657299473}
   - 114: {fileID: 657299472}
+  - 114: {fileID: 657299477}
   m_Layer: 0
   m_Name: Principal
   m_TagString: Untagged
@@ -7726,14 +7639,22 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 64
-        y: 104
-        width: 124.5
-        height: 16
+        x: 53
+        y: 136
+        width: 181
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: OnConversationStart
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Teleport FET1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.AnimationSettings
@@ -7807,7 +7728,89 @@ MonoBehaviour:
         - stopOnExit
         paramDataPos: 00000000000000000000000004000000080000000d000000010000000100000012000000160000001b0000001b0000001b000000
         paramByteDataSize: 00000000000000000400000004000000050000000500000000000000000000000400000005000000000000000000000001000000
-    events: []
+    - name: Teleport FET1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 398
+        y: 113
+        width: 112
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetPosition
+        - HutongGames.PlayMaker.Actions.SetPosition
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: a290608e8b80e9a5
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1028296180}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 2059557260}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000000000000000000000176335f4645543100000000010000000001000000000100000000000000000000000000000000000176335f46455431000000000100000000010000000001010000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000140000001c0000000f0000000f0000000f000000070000000100000001000000
+        paramName:
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - space
+        - everyFrame
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - space
+        - everyFrame
+        - lateUpdate
+        paramDataPos: 000000000000000014000000190000001e000000230000002700000001000000280000003c00000041000000460000004b0000004f00000050000000
+        paramByteDataSize: 000000001400000005000000050000000500000004000000010000000000000014000000050000000500000005000000040000000100000001000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: OnConversationStart
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []
@@ -7815,7 +7818,13 @@ MonoBehaviour:
       boolVariables: []
       stringVariables: []
       vector2Variables: []
-      vector3Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: v3_FET1
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
@@ -7835,6 +7844,19 @@ MonoBehaviour:
     StepFrame: 0
     activeStateName: 
   fsmTemplate: {fileID: 0}
+--- !u!114 &657299477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 657299469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a308b4aa4fc5394d80474e70a6ce7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FSMs:
+  - {fileID: 657299476}
 --- !u!1 &659112830
 GameObject:
   m_ObjectHideFlags: 0
@@ -11610,6 +11632,75 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: dd2a8c26155099d4584b72c5b66f2d3b, type: 3}
+--- !u!1 &1028296180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1028296184}
+  - 33: {fileID: 1028296183}
+  - 65: {fileID: 1028296182}
+  - 23: {fileID: 1028296181}
+  m_Layer: 0
+  m_Name: spawnPoint_FET1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1028296181
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028296180}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &1028296182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028296180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1028296183
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028296180}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1028296184
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028296180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.5774021, y: 8.32196808, z: -12.074564}
+  m_LocalScale: {x: .74121511, y: .364827454, z: .519662261}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1031573882
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,11 +14010,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.29053211
+      value: .837317467
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 54.9227104
+      value: 56.6191711
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalRotation.x
@@ -14820,7 +14911,6 @@ GameObject:
   - 114: {fileID: 1327656559}
   - 143: {fileID: 1327656558}
   - 114: {fileID: 1327656555}
-  - 114: {fileID: 1327656561}
   m_Layer: 0
   m_Name: WalkieTalkie
   m_TagString: Untagged
@@ -14919,228 +15009,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   trigger: 32
   stopConversationOnTriggerExit: 0
---- !u!114 &1327656561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327656553}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: Listener
-    states:
-    - name: Listener
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 61
-        y: 133
-        width: 166
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: OnConversationEnded
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: DestroyObject
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 558
-        y: 115
-        width: 116
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.DestroySelf
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 3ee6a00a
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 0000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 11000000
-        paramName:
-        - detachChildren
-        paramDataPos: 00000000
-        paramByteDataSize: 02000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 320
-        y: 129
-        width: 146
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: e_hasWalkieTalkie
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: DestroyObject
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - PixelCrushers.DialogueSystem.PlayMaker.GetVariable
-        - HutongGames.PlayMaker.Actions.BoolTest
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 56c250543334d172
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: hasWalkieTalkie
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 0000000001000168617357616c6b696554616c6b6965000168617357616c6b696554616c6b6965655f68617357616c6b696554616c6b696500
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 12000000120000000f0000001100000011000000170000001700000001000000
-        paramName:
-        - variableName
-        - storeStringResult
-        - storeFloatResult
-        - storeBoolResult
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000001000000000000000500000016000000270000003800000038000000
-        paramByteDataSize: 0000000000000000050000001100000011000000110000000000000001000000
-    events:
-    - name: OnConversationEnded
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: e_hasWalkieTalkie
-      isSystemEvent: 0
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables:
-      - useVariable: 1
-        name: hasWalkieTalkie
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-    description: 
-    docUrl: 
-    showStateLabel: 1
-    maxLoopCount: 0
-    watermark: 
-    version: 0
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    StepFrame: 0
-    activeStateName: 
-  fsmTemplate: {fileID: 0}
 --- !u!1 &1332885775
 GameObject:
   m_ObjectHideFlags: 0
@@ -19762,8 +19630,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 467
-        y: 105.875
+        x: 439
+        y: 114.875
         width: 114
         height: 48
       isBreakpoint: 0
@@ -19852,8 +19720,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 655
-        y: 106
+        x: 628
+        y: 110
         width: 120
         height: 16
       isBreakpoint: 0
@@ -19862,13 +19730,15 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - PixelCrushers.DialogueSystem.PlayMaker.ShowAlert
         - HutongGames.PlayMaker.Actions.DestroyObject
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 717c319e
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 2de92508717c319e
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -19884,80 +19754,29 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 00000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 130000000f00000011000000
-        paramName:
-        - gameObject
-        - delay
-        - detachChildren
-        paramDataPos: 000000000000000005000000
-        paramByteDataSize: 000000000500000002000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 607
-        y: 282
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - PixelCrushers.DialogueSystem.PlayMaker.GetVariable
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 56c25054
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: hasWalkieTalkie
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
+          value: You got the Walkie Talkie
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 00000000010001
+        byteData: 000000400000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000000f00000011000000
+        paramDataType: 120000000f000000130000000f00000011000000
         paramName:
-        - variableName
-        - storeStringResult
-        - storeFloatResult
-        - storeBoolResult
-        paramDataPos: 00000000010000000000000005000000
-        paramByteDataSize: 00000000000000000500000002000000
+        - message
+        - duration
+        - gameObject
+        - delay
+        - detachChildren
+        paramDataPos: 000000000000000000000000050000000a000000
+        paramByteDataSize: 0000000005000000000000000500000002000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -21043,7 +20862,6 @@ MonoBehaviour:
   - {fileID: 1855394957}
   - {fileID: 258028992}
   - {fileID: 529015910}
-  - {fileID: 1327656561}
 --- !u!114 &1855394959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22869,7 +22687,9 @@ MonoBehaviour:
   conversation: SiteIncident
   condition:
     luaConditions: []
-    questConditions: []
+    questConditions:
+    - questName: Head to Incident Site
+      questState: 2
     acceptedTags: []
     acceptedGameObjects: []
   skipIfNoValidEntries: 0
