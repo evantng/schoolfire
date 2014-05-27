@@ -50,10 +50,6 @@ Material:
         first:
           name: _Gloss
         second: .267857134
-      data:
-        first:
-          name: _Specular
-        second: .0357142873
     m_Colors:
       data:
         first:
