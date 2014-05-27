@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: CustomLighting
-  m_Shader: {fileID: 4800000, guid: e570c2adf90d6a24b8634788025bb2bb, type: 3}
+  m_Shader: {fileID: 100, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -15,23 +15,44 @@ Material:
     m_TexEnvs:
       data:
         first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _Diffuse
         second:
-          m_Texture: {fileID: 2800000, guid: 8993b617f08498f43adcbd90697f1c5d, type: 3}
+          m_Texture: {fileID: 2800000, guid: c7383c424881542428f205dd018dbced, type: 3}
           m_Scale: {x: 16, y: 16}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Normals
         second:
-          m_Texture: {fileID: 2800000, guid: c6dfb00dbee6bc044a8a3bb22e56e064, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 32, y: 32}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Gloss
-        second: .410714298
+        second: .607142866
       data:
         first:
           name: _Bands
@@ -40,4 +61,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .551470578, g: .981440127, b: 1, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
