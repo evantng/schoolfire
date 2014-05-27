@@ -545,6 +545,14 @@ MonoBehaviour:
     - title: Description
       value: 
       type: 0
+  - id: 2
+    fields:
+    - title: Name
+      value: n_wrong
+      type: 0
+    - title: Initial Value
+      value: False
+      type: 2
   conversations:
   - id: 1
     fields:
@@ -693,7 +701,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -916,7 +924,7 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -945,7 +953,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: Uhh. Are you sure?
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -973,11 +981,11 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 220
+        x: 31
+        y: 219
         width: 160
         height: 30
     - id: 9
@@ -1088,7 +1096,7 @@ MonoBehaviour:
       userScript: 'Quest["Talk_to_FET_1"].State = "success";
 
         Quest["Head_to_Ops_Room"].State = "active"; Variable["Alert"] = "Head to the
-        Ops Room"'
+        Ops Room";Variable["n_wrong"] = "false"'
       canvasRect:
         serializedVersion: 2
         x: 390
