@@ -1,0 +1,5289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1097633651, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
+  m_Name: SchoolDialogue 1
+  m_EditorClassIdentifier: 
+  version: 1.5.1.0
+  author: SGI
+  description: Project configured for game development.
+  globalUserScript: 
+  emphasisSettings:
+  - color: {r: .905882359, g: .58431375, b: .356862754, a: 1}
+    bold: 1
+    italic: 0
+    underline: 0
+  - color: {r: .266666681, g: .713725507, b: .203921571, a: 1}
+    bold: 1
+    italic: 0
+    underline: 0
+  - color: {r: .274509817, g: .533333361, b: .90196079, a: 1}
+    bold: 1
+    italic: 0
+    underline: 0
+  - color: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+    bold: 1
+    italic: 0
+    underline: 0
+  actors:
+  - id: 1
+    fields:
+    - title: Name
+      value: Player
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: True
+      type: 2
+    - title: Age
+      value: 30
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 3
+    fields:
+    - title: Name
+      value: FET1
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: False
+      type: 2
+    - title: Age
+      value: 0
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 2
+    fields:
+    - title: Name
+      value: FET2
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: False
+      type: 2
+    - title: Age
+      value: 0
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 4
+    fields:
+    - title: Name
+      value: FET3
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: False
+      type: 2
+    - title: Age
+      value: 0
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 5
+    fields:
+    - title: Name
+      value: System
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: False
+      type: 2
+    - title: Age
+      value: 0
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 6
+    fields:
+    - title: Name
+      value: Principal
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: IsPlayer
+      value: False
+      type: 2
+    - title: Age
+      value: 0
+      type: 1
+    - title: Gender
+      value: 
+      type: 0
+    - title: Rank
+      value: 
+      type: 0
+    - title: Faction
+      value: 
+      type: 0
+    - title: Class
+      value: 
+      type: 0
+    - title: Subclass
+      value: 
+      type: 0
+    - title: Ability
+      value: 
+      type: 0
+    - title: Primary Race
+      value: 
+      type: 0
+    - title: Secondary Race
+      value: 
+      type: 0
+    - title: Hometown
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  items:
+  - id: 1
+    fields:
+    - title: Name
+      value: Head to Ops Room
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Purpose
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    - title: Effect
+      value: 
+      type: 0
+    - title: Associated With
+      value: -1
+      type: 5
+    - title: Combines With
+      value: -1
+      type: 6
+    - title: Condition
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+  - id: 2
+    fields:
+    - title: Name
+      value: Head to Incident Site
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Purpose
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    - title: Effect
+      value: 
+      type: 0
+    - title: Associated With
+      value: -1
+      type: 5
+    - title: Combines With
+      value: -1
+      type: 6
+    - title: Condition
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+  - id: 3
+    fields:
+    - title: Name
+      value: Talk to FET-1
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Purpose
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    - title: Effect
+      value: 
+      type: 0
+    - title: Associated With
+      value: -1
+      type: 5
+    - title: Combines With
+      value: -1
+      type: 6
+    - title: Condition
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+  - id: 4
+    fields:
+    - title: Name
+      value: Report to Ops Room
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Purpose
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    - title: Effect
+      value: 
+      type: 0
+    - title: Associated With
+      value: -1
+      type: 5
+    - title: Combines With
+      value: -1
+      type: 6
+    - title: Condition
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+  - id: 5
+    fields:
+    - title: Name
+      value: Hand Over Duty
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Purpose
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    - title: Effect
+      value: 
+      type: 0
+    - title: Associated With
+      value: -1
+      type: 5
+    - title: Combines With
+      value: -1
+      type: 6
+    - title: Condition
+      value: 
+      type: 0
+    - title: Texture Files
+      value: '[]'
+      type: 3
+    - title: Model Files
+      value: '[]'
+      type: 3
+  locations: []
+  variables:
+  - id: 0
+    fields:
+    - title: Name
+      value: Alert
+      type: 0
+    - title: Initial Value
+      value: 
+      type: 0
+    - title: Description
+      value: 
+      type: 0
+  - id: 1
+    fields:
+    - title: Name
+      value: hasWalkieTalkie
+      type: 0
+    - title: Initial Value
+      value: False
+      type: 2
+    - title: Description
+      value: 
+      type: 0
+  conversations:
+  - id: 1
+    fields:
+    - title: Title
+      value: Explosion
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 3
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 0
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 1
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 0
+        destinationConversationID: 1
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: Explosion
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Did you hear that loud explosion?!
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 1
+        destinationConversationID: 1
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: First decision
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 6
+        destinationConversationID: 1
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 6
+        destinationConversationID: 1
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 6
+        destinationConversationID: 1
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Yes! Lets run for safety! Every man for himself!
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 4
+        destinationConversationID: 1
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: We should check it out ourselves. I hate to be disturbing the Principal
+          for this.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 2
+        destinationConversationID: 1
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Really?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 7
+        destinationConversationID: 1
+        destinationDialogueID: 6
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Uhh. Are you sure?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 5
+        destinationConversationID: 1
+        destinationDialogueID: 6
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Please go check it out. It sounds like it came from the chemistry lab
+          on 3rd floor. I'll report to the Principal.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 9
+        destinationConversationID: 1
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 'Alright. Do remember to collect the walkie-talkie there. I''ll meet
+          you at the site of incident.
+
+'
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: Delay(2);
+        type: 0
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'Quest["Talk_to_FET-1"].State = "success";
+
+        Quest["Head_to_Ops_Room"].State = "active"; Variable["Alert"] = "Head to the
+        Ops Room"'
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+  - id: 2
+    fields:
+    - title: Title
+      value: Ops centre
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 3
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 2
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 0
+        destinationConversationID: 2
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: Quest["Head_to_Ops_Room"].State = "active";
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: I heard a loud explosion. Head-FEG, what has happened?!
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 6
+        destinationConversationID: 2
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: '[f]FET-1 is investigating it right now. It seems that the chemistry
+          lab on the 3rd floor is on fire.'
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 4
+        destinationConversationID: 2
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: OK, take the walkie-talkie. We'll use that to communicate. Head back
+          to the site and help those in need.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 7
+        destinationConversationID: 2
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: '[f]Will do. I will keep you posted.'
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'Quest["Head_to_Ops_Room"].State = "success";
+
+        Quest["Head_to_Incident_Site"].State = "active"; Variable["Alert"] = "Head
+        back to the incident site";'
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+  - id: 3
+    fields:
+    - title: Title
+      value: IncidentCoordination
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 5
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 3
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 0
+        destinationConversationID: 3
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 5
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: The Chemistry lab has caught fire. What do you do?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: Answer1
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 3
+        destinationConversationID: 3
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: First Decision
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      conversationID: 3
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 5
+        destinationConversationID: 3
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: Answer2
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: Answer3
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 5
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Wrong Answer
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 4
+        destinationConversationID: 3
+        destinationDialogueID: 5
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+  - id: 5
+    fields:
+    - title: Title
+      value: Opening
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 5
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 5
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 0
+        destinationConversationID: 5
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: Explosion
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 5
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: BOOOOM!!
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: Delay(2);
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 1
+        destinationConversationID: 5
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: Response
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 5
+        type: 5
+      - title: Menu Text
+        value: '[f]What happened?'
+        type: 0
+      - title: Dialogue Text
+        value: That sounds really bad. As Head-FEG, I will need to find out what has
+          happened and act appropriately.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: Quest["Talk_to_FET-1"].State = "active"; Variable["Alert"] = "Talk
+        to FET-1 who is right in front";
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+  - id: 4
+    fields:
+    - title: Title
+      value: FET Sitrep
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 3
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 4
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 0
+        destinationConversationID: 4
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: Report
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Sir. You are correct. It is indeed the Chemistry lab that is on fire.
+          Fortunately, it is not very serious.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: Delay(3);
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 1
+        destinationConversationID: 4
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: DecisionTree 1
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 4
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 2
+        destinationConversationID: 4
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 2
+        destinationConversationID: 4
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 2
+        destinationConversationID: 4
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: Wrong
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Alright! Let's tell Principal the good news now.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 3
+        destinationConversationID: 4
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: Right
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Okay. What is the type of fire?
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 4
+        destinationConversationID: 4
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: Wrong
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Sigh I was hoping for more action.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 5
+        destinationConversationID: 4
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Aren't you supposed to ask me for some information?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 6
+        destinationConversationID: 4
+        destinationDialogueID: 2
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: That is definitely not the response I am expecting.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 7
+        destinationConversationID: 4
+        destinationDialogueID: 2
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: It is a class D fire, sir. It is caused by chemical reaction.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 8
+        destinationConversationID: 4
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: '[f]I see. What about the number of casualty?'
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 9
+        destinationConversationID: 4
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 'None, sir. '
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 10
+        destinationConversationID: 4
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: '[f]That''s good to hear. Anyone still trapped inside?'
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 11
+        destinationConversationID: 4
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: None, sir. Everyone has got out safely thanks the FEG members.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 12
+        destinationConversationID: 4
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: '[f]That is a relief. What is the attendance number of FEG members?'
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 13
+        destinationConversationID: 4
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 'There are 8 of us, sir. '
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 14
+        destinationConversationID: 4
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: DecisionTree2
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 4
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 15
+        destinationConversationID: 4
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 15
+        destinationConversationID: 4
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 15
+        destinationConversationID: 4
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: Wrong
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Well then, let's return to Ops Room to celebrate!
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 16
+        destinationConversationID: 4
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 17
+      fields:
+      - title: Title
+        value: Wrong
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Well then, continue to stay here. I will go back to Ops Room.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 17
+        destinationConversationID: 4
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: Right
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: I will take over coordination. Thank you for your efforts.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 18
+        destinationConversationID: 4
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 19
+        destinationConversationID: 4
+        destinationDialogueID: 15
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: You are not following the procedure.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 20
+        destinationConversationID: 4
+        destinationDialogueID: 15
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Alright. The SCDF will be arriving soon. Please report to Ops Room
+          using the walkie-talkie.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'Quest["Head_to_Incident_Site"].State = "success";
+
+        Quest["Report_to_Ops_Room"].State = "active"; Variable["Alert"] = "Use walkie-talkie
+        to report to Ops Room";'
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+  - id: 6
+    fields:
+    - title: Title
+      value: Ops Sitrep
+      type: 0
+    - title: Pictures
+      value: '[]'
+      type: 3
+    - title: Description
+      value: 
+      type: 0
+    - title: Actor
+      value: 1
+      type: 5
+    - title: Conversant
+      value: 6
+      type: 5
+    - title: Act
+      value: 
+      type: 0
+    - title: Chapter
+      value: 
+      type: 0
+    - title: Scene
+      value: 
+      type: 0
+    - title: Level
+      value: 
+      type: 0
+    - title: Mood
+      value: 
+      type: 0
+    - title: Primary Location
+      value: -1
+      type: 7
+    nodeColor: Red
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 6
+      isRoot: 1
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 0
+        destinationConversationID: 6
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: Sitrep
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: 'Yes. Principal here, report your assessment. '
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 1
+        destinationConversationID: 6
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Fire at Chemistry lab on 3rd floor.
+        type: 0
+      - title: Dialogue Text
+        value: I am right on my initial guess. The fire is at Chemistry lab on 3rd
+          floor.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 2
+        destinationConversationID: 6
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What is the type of fire?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 3
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: Fire
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 6
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 6
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 6
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 6
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 6
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Class A fire. It is caused by combustible material.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 5
+        destinationConversationID: 6
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Class B. It is caused by flammable liquid.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 6
+        destinationConversationID: 6
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Class C. It is caused by electrical equipment.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 7
+        destinationConversationID: 6
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Class D. It is caused by chemical reaction in combustible metals.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 8
+        destinationConversationID: 6
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Are you that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 9
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Are you that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 10
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Are you that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 11
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: I see. What about the number of casualty?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 12
+        destinationConversationID: 6
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: Casualty
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 6
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 13
+        destinationConversationID: 6
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 13
+        destinationConversationID: 6
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 13
+        destinationConversationID: 6
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: There are no casualty in this incident.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 14
+        destinationConversationID: 6
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: A few of the students were injured.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 15
+        destinationConversationID: 6
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: The whole class is injured.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 16
+        destinationConversationID: 6
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 17
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 17
+        destinationConversationID: 6
+        destinationDialogueID: 13
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 18
+        destinationConversationID: 6
+        destinationDialogueID: 13
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: That's good. Anyone still trapped in the lab?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 19
+        destinationConversationID: 6
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: Trapped
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 6
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 20
+        destinationConversationID: 6
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 20
+        destinationConversationID: 6
+        destinationDialogueID: 22
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 20
+        destinationConversationID: 6
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: No, everyone has got out of the lab safely.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 21
+        destinationConversationID: 6
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Yes there are still several students trapped inside.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 22
+        destinationConversationID: 6
+        destinationDialogueID: 24
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 23
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: Yes, there are many students as well as teachers trapped inside.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 23
+        destinationConversationID: 6
+        destinationDialogueID: 25
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 24
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 24
+        destinationConversationID: 6
+        destinationDialogueID: 20
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 25
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 25
+        destinationConversationID: 6
+        destinationDialogueID: 20
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 26
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Okay. What is the attendance of the FEG members?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 26
+        destinationConversationID: 6
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 27
+      fields:
+      - title: Title
+        value: FEG
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      conversationID: 6
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 27
+        destinationConversationID: 6
+        destinationDialogueID: 28
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 27
+        destinationConversationID: 6
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 27
+        destinationConversationID: 6
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 28
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: There are only 2 of us in the rescue effort.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 28
+        destinationConversationID: 6
+        destinationDialogueID: 31
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 29
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: There are 8 of us in this rescue efforts.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 29
+        destinationConversationID: 6
+        destinationDialogueID: 33
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 30
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 6
+        type: 5
+      - title: Menu Text
+        value: There are 40 of us in this rescue effort.
+        type: 0
+      - title: Dialogue Text
+        value: 
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 30
+        destinationConversationID: 6
+        destinationDialogueID: 32
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 31
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 31
+        destinationConversationID: 6
+        destinationDialogueID: 27
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 32
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: What?! Are you sure that is correct?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 32
+        destinationConversationID: 6
+        destinationDialogueID: 27
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 33
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 6
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: I see. Keep up the good work. The SCDF is coming soon to take over
+          coordination of fire extinguishing and rescue efforts.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30

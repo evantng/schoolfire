@@ -14,7 +14,13 @@ MonoBehaviour:
   variables:
     floatVariables: []
     intVariables: []
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: b_isCall
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables:
     - useVariable: 1
       name: questState
@@ -53,3 +59,7 @@ MonoBehaviour:
   - UnassignedEvent
   - getWalkieTalkie
   - doNothing
+  - Teleport
+  - Show UI
+  - Call Ops Room
+  - Enable Key
