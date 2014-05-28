@@ -6198,13 +6198,13 @@ MonoBehaviour:
     startState: Opening
     states:
     - name: Opening
-      description: 
+      description: Waits for conversation to end and then move on to next state.
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 61.4453125
-        y: 163.492188
-        width: 150
+        y: 115.492188
+        width: 288.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6215,7 +6215,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: FET-1
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6247,13 +6247,13 @@ MonoBehaviour:
         paramDataPos: 
         paramByteDataSize: 
     - name: Head to Ops Room
-      description: 
+      description: Sends event when quest "Head to Ops Room" is active
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 309.898438
-        y: 134.585938
-        width: 142
+        x: 473.140625
+        y: 131.945312
+        width: 261
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -6264,7 +6264,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: Success
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
@@ -6272,7 +6272,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: Failure
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
@@ -6280,7 +6280,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: Active
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6336,8 +6336,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 617.070312
-        y: 160.804688
+        x: 817.765625
+        y: 164.125
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6377,8 +6377,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 605.070312
-        y: 105.765625
+        x: 909.914062
+        y: 148.09375
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6414,13 +6414,15 @@ MonoBehaviour:
         paramDataPos: 
         paramByteDataSize: 
     - name: Active
-      description: 
+      description: 'Send global event to Ops Room to turn highlight
+
+'
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 617.078125
-        y: 213.804688
-        width: 100
+        x: 926.476562
+        y: 179.492188
+        width: 198
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -6499,13 +6501,13 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000005000000
         paramByteDataSize: 00000000000000000500000001000000
     - name: FET-1
-      description: 
+      description: Waits for conversation to end and then move on to next state.
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 60
-        y: 222
-        width: 150
+        x: 64
+        y: 210
+        width: 288.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6516,7 +6518,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: Head to Ops Room
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6581,7 +6583,8 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: Send a global event to gameObject Ops Room after initiating the quest
+      "Head to Ops Room"
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
@@ -6621,13 +6624,14 @@ MonoBehaviour:
     startState: Listening
     states:
     - name: Listening
-      description: 
+      description: Listens for the global event "Show UI" and then move on to next
+        state
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 62
-        y: 164
-        width: 100
+        y: 196
+        width: 281.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6638,7 +6642,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: UI
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6670,12 +6674,12 @@ MonoBehaviour:
         paramDataPos: 
         paramByteDataSize: 
     - name: UI
-      description: 
+      description: Shows a Button
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 218.539062
-        y: 158.460938
+        x: 402.617188
+        y: 112.21875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -6687,7 +6691,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Quest
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6767,8 +6771,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 520.960938
-        y: 110.734375
+        x: 848.734375
+        y: 211.5
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6846,8 +6850,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 369.65625
-        y: 160.320312
+        x: 619.023438
+        y: 195.585938
         width: 100
         height: 48
       isBreakpoint: 0
@@ -6859,7 +6863,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Call
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
@@ -6867,7 +6871,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Alert
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -6923,8 +6927,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 373.09375
-        y: 271.632812
+        x: 619.851562
+        y: 281.625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -6936,7 +6940,7 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: UI
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -7011,7 +7015,7 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: "Activate the UI for walkie-talkie after collecting it. \n"
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
@@ -7045,7 +7049,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 116
+        y: 148
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7057,7 +7061,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Check bool
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -7098,8 +7102,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 214
-        y: 114
+        x: 305
+        y: 100
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7111,7 +7115,7 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: Listening
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -7154,7 +7158,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51.3359375
-        y: 186.015625
+        y: 218.015625
         width: 100
         height: 48
       isBreakpoint: 0
@@ -7166,7 +7170,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Scoring
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
@@ -7174,7 +7178,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Listening
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -7279,7 +7283,8 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: Keep track of the number of mistakes the user has committed during
+      conversations
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
@@ -7870,7 +7875,7 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: Turn Highlight on and off
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
@@ -15130,7 +15135,7 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: Trigger conversation
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
@@ -21310,7 +21315,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51.9921875
-        y: 125
+        y: 109
         width: 100
         height: 32
       isBreakpoint: 0
@@ -21322,7 +21327,7 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: Listener
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -21377,7 +21382,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 244
-        y: 123
+        y: 107
         width: 103
         height: 32
       isBreakpoint: 0
@@ -21389,7 +21394,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Get Key Down
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -21443,8 +21448,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 467
-        y: 105.875
+        x: 527
+        y: 157.875
         width: 114
         height: 48
       isBreakpoint: 0
@@ -21456,7 +21461,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Destroy Object
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
@@ -21464,7 +21469,7 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: Listener
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -21533,8 +21538,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 655
-        y: 106
+        x: 528.796875
+        y: 106.890625
         width: 120
         height: 16
       isBreakpoint: 0
@@ -21678,7 +21683,9 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: 'Trigger conversation with walkie-talkie
+
+'
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
