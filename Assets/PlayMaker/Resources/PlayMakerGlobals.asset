@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: f_score
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables:
     - useVariable: 1
@@ -24,6 +30,12 @@ MonoBehaviour:
     stringVariables:
     - useVariable: 1
       name: questState
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: s_score
       tooltip: 
       showInInspector: 0
       networkSync: 0

@@ -752,7 +752,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -834,7 +834,7 @@ MonoBehaviour:
         value: 3
         type: 5
       - title: Menu Text
-        value: We should check it out ourselves.
+        value: Principal should not know about this!
         type: 0
       - title: Dialogue Text
         value: Let's go check it out first. I hate to be disturbing the Principal
@@ -2260,7 +2260,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 75
@@ -2317,7 +2317,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 30
@@ -2374,11 +2374,11 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 210
-        y: 170
+        y: 171
         width: 160
         height: 30
     - id: 5
@@ -2431,7 +2431,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 390
@@ -2995,7 +2995,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -3052,7 +3052,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 30
@@ -3109,7 +3109,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -3166,7 +3166,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 390
@@ -3516,7 +3516,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: I am right on my initial guess. The fire is at Chemistry lab on 3rd
           floor.
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -3573,7 +3573,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: What is the type of fire?
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -3687,7 +3687,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: 
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -3715,7 +3715,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 30
