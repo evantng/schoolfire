@@ -701,7 +701,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["n_wrong"] = "false";
+      userScript: 
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -809,7 +809,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -867,7 +867,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 30
@@ -924,7 +924,7 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: Variable["n_wrong"] = "true";
+      userScript: 
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -981,7 +981,7 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: Variable["n_wrong"] = "true";
+      userScript: 
       canvasRect:
         serializedVersion: 2
         x: 31
@@ -1039,7 +1039,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "false";
       canvasRect:
         serializedVersion: 2
         x: 390
@@ -1095,8 +1095,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Quest["Talk_to_FET_1"].State = "success";
 
-        Quest["Head_to_Ops_Room"].State = "active"; Variable["Alert"] = "Head to the
-        Ops Room";Variable["n_wrong"] = "false"'
+        Quest["Head_to_Ops_Room"].State = "active"; Variable["Alert"] = "Head to Ops
+        Room now"'
       canvasRect:
         serializedVersion: 2
         x: 390
@@ -2631,7 +2631,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: 
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -3744,7 +3744,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: 
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0
@@ -3772,7 +3772,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["n_wrong"] = "true";
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -3801,7 +3801,7 @@ MonoBehaviour:
         type: 0
       - title: Dialogue Text
         value: 
-        type: 4
+        type: 0
       - title: Parenthetical
         value: 
         type: 0

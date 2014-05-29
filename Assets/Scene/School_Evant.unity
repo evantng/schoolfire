@@ -3620,8 +3620,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 467
-        y: 196
+        x: 450
+        y: 197
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6505,7 +6505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fsm:
     usedInTemplate: {fileID: 0}
-    name: FSM 2
+    name: FSM2
     startState: Listening
     states:
     - name: Listening
@@ -6581,15 +6581,15 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GUIButton
+        - HutongGames.PlayMaker.Actions.GUIBox
         - HutongGames.PlayMaker.Actions.GetKeyUp
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 000000000c000000
-        actionHashCodes: 4cc8fcef437581ed
+        actionStartIndex: 000000000a000000
+        actionHashCodes: 84b16efc437581ed
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6605,7 +6605,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: CALL (P)
+          value: Press "P" for Ops Room
         - useVariable: 0
           name: 
           tooltip: 
@@ -6617,7 +6617,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Button
+          value: 
         fsmObjectParams:
         - useVariable: 0
           name: 
@@ -6627,15 +6627,13 @@ MonoBehaviour:
           typeName: 
           value: {fileID: 0}
         fsmVarParams: []
-        byteData: 50726573736564000100000000000000000000000000000000010000c841000000c841000000c842000000c84200000070000000507265737365640001
+        byteData: 00000000000000000000000000000000010000c841000000c8410000001643000000f04100000070000000507265737365640001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1700000011000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000070000001700000011000000
+        paramDataType: 210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000070000001700000011000000
         paramName:
-        - sendEvent
-        - storeButtonState
         - image
         - text
         - tooltip
@@ -6649,8 +6647,8 @@ MonoBehaviour:
         - key
         - sendEvent
         - storeResult
-        paramDataPos: 000000000700000000000000000000000100000002000000090000001a0000001f00000024000000290000002e00000030000000340000003b000000
-        paramByteDataSize: 070000000200000000000000000000000000000000000000110000000500000005000000050000000500000002000000040000000700000002000000
+        paramDataPos: 000000000000000001000000020000000000000011000000160000001b0000002000000025000000270000002b00000032000000
+        paramByteDataSize: 00000000000000000000000000000000110000000500000005000000050000000500000002000000040000000700000002000000
     - name: Call
       description: 
       colorIndex: 0
@@ -6952,14 +6950,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetMouseButtonUp
-        - HutongGames.PlayMaker.Actions.SetStringValue
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 2d8b867bc9be26cb
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 2d8b867b
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6969,36 +6965,21 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 1
-          name: s_score
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000005472616e736974000100
+        byteData: 000000005472616e7369740001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 070000001700000011000000120000001200000001000000
+        paramDataType: 070000001700000011000000
         paramName:
         - button
         - sendEvent
         - storeResult
-        - stringVariable
-        - stringValue
-        - everyFrame
-        paramDataPos: 00000000040000000b00000000000000010000000d000000
-        paramByteDataSize: 040000000700000002000000000000000000000001000000
+        paramDataPos: 00000000040000000b000000
+        paramByteDataSize: 040000000700000002000000
     - name: Scoring
       description: 
       colorIndex: 0
@@ -7023,14 +7004,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.FloatAdd
-        - HutongGames.PlayMaker.Actions.ConvertFloatToString
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 22e895225154bb74
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 22e89522
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -7040,38 +7019,22 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 1
-          name: s_score
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: s_score
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 0000000001665f73636f72650000803f0000000000000001665f73636f726500
+        byteData: 0000000001665f73636f72650000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000000f000000120000001200000001000000
+        paramDataType: 0f0000000f0000000100000001000000
         paramName:
         - floatVariable
         - add
         - everyFrame
         - perSecond
-        - floatVariable
-        - stringVariable
-        - format
-        - everyFrame
-        paramDataPos: 000000000c00000011000000120000001300000000000000010000001f000000
-        paramByteDataSize: 0c0000000500000001000000010000000c000000000000000000000001000000
+        paramDataPos: 000000000c0000001100000012000000
+        paramByteDataSize: 0c000000050000000100000001000000
     - name: Check bool
       description: 
       colorIndex: 0
@@ -7233,13 +7196,13 @@ MonoBehaviour:
     startState: Wait
     states:
     - name: Wait
-      description: 
+      description: Set up scoring value
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 100
+        width: 120.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -7250,64 +7213,22 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: Score
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.ConvertFloatToString
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 3708ec1a
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 0000803f0046494e495348454400
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000001700000001000000
-        paramName:
-        - time
-        - finishEvent
-        - realTime
-        paramDataPos: 00000000050000000d000000
-        paramByteDataSize: 050000000800000001000000
-    - name: Score
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 220
-        y: 103
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.GUIBox
-        customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 84b16efc
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000007000000
+        actionHashCodes: 79fc1ded5154bb743708ec1a
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -7318,6 +7239,85 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
+        - useVariable: 1
+          name: s_score
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000001665f73636f72650000000000000000000001665f73636f7265000000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000000f000000010000000f0000001200000012000000010000000f0000001700000001000000
+        paramName:
+        - floatVariable
+        - floatValue
+        - everyFrame
+        - floatVariable
+        - stringVariable
+        - format
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000c000000110000001200000000000000010000001e0000001f000000240000002c000000
+        paramByteDataSize: 0c00000005000000010000000c000000000000000000000001000000050000000800000001000000
+    - name: Score
+      description: Update UI
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 225
+        y: 116
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ConvertFloatToString
+        - HutongGames.PlayMaker.Actions.GUIBox
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 5154bb7484b16efc
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: s_score
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
         - useVariable: 1
           name: s_score
           tooltip: 
@@ -7345,13 +7345,17 @@ MonoBehaviour:
           typeName: 
           value: {fileID: 0}
         fsmVarParams: []
-        byteData: 00000000000000000000000000000000010000c841000000c842000000c842000000f041000000
+        byteData: 0000000001665f73636f72650100000000000000000000000000000000010000c8410000007042000000c842000000c841000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramDataType: 0f000000120000001200000001000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
         paramName:
+        - floatVariable
+        - stringVariable
+        - format
+        - everyFrame
         - image
         - text
         - tooltip
@@ -7362,11 +7366,14 @@ MonoBehaviour:
         - width
         - height
         - normalized
-        paramDataPos: 000000000000000001000000020000000000000011000000160000001b0000002000000025000000
-        paramByteDataSize: 00000000000000000000000000000000110000000500000005000000050000000500000002000000
+        paramDataPos: 0000000000000000010000000c000000000000000200000003000000040000000d0000001e00000023000000280000002d00000032000000
+        paramByteDataSize: 0c00000000000000000000000100000000000000000000000000000000000000110000000500000005000000050000000500000002000000
     events:
     - name: FINISHED
       isSystemEvent: 1
+      isGlobal: 0
+    - name: Transit
+      isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
     variables:
@@ -7383,7 +7390,7 @@ MonoBehaviour:
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description: 
+    description: Show UI for scoring
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
